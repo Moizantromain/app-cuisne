@@ -1,0 +1,17 @@
+# Dépendances et sorties de build
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Fichiers générés par les plateformes et systèmes
+*.keystore
+*.p8
+*.mobileprovision
+*.orig.*
+.DS_Store
